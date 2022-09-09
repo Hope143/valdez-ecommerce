@@ -34,7 +34,7 @@ function HeroSection() {
             className={`col-lg-6 my-auto text-center text-lg-start ${styles.descContainer}`}
           >
             <h1 className="mb-3">{item.title}</h1>
-            <p>{item.desc}</p>
+            <p className="px-1 px-lg-0">{item.desc}</p>
             <button className="px-3 py-1" type="button">
               Shop Now <i className="bi bi-bag-check-fill"></i>
             </button>
