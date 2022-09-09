@@ -5,8 +5,8 @@
 }
 @media screen and (max-width: 992px) {
   .imageContainer {
-    width: 70%;
-    width: 70%;
+    width: 60%;
+    width: 60%;
   }
   .descContainer {
     padding-right: 1rem !important;
@@ -14,8 +14,8 @@
 }
 @media screen and (max-width: 576px) {
   .imageContainer {
-    width: 100%;
-    width: 100%;
+    width: 400px;
+    width: 400px;
   }
   .descContainer h1 {
     font-size: 3.5rem !important;
