@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+
+.navContainer {
+  max-width: 1500px;
+  margin: auto;
+  padding: 0px 12px;
+
+  .brand {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $black-color;
+  }
+
+  .links {
+    color: $secondary-color;
+  }
+
+  li {
+    margin: auto 0;
+  }
+}

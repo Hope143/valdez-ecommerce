@@ -1,0 +1,47 @@
+@use "../abstracts/" as *;
+
+.carouselItem {
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #f4f4f4;
+
+  .heroImage {
+    z-index: 2;
+  }
+
+  .circle {
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    width: 390px;
+    height: 390px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    z-index: 1;
+  }
+
+  .descContainer {
+    max-width: 950px;
+    padding: 1rem 10rem 2.5rem 1rem;
+    z-index: 3;
+
+    h1 {
+      font-size: 5rem;
+      color: $dark-color;
+    }
+
+    p {
+      font-size: 2rem;
+      color: $secondary-color;
+    }
+  }
+}
+
+.buttonIndex {
+  z-index: 3;
+}
+
+.carouselIcon {
+  color: #676767;
+  font-size: 35px;
+}

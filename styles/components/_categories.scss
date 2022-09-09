@@ -1,0 +1,13 @@
+@use "../abstracts/" as *;
+
+.categoryTitle {
+  width: 100%;
+  top: 45%;
+  left: 0%;
+  position: absolute;
+
+  h1 {
+    font-size: 2.6rem;
+    color: $white-color;
+  }
+}

@@ -1,0 +1,15 @@
+.descContainer,
+.categoryTitle {
+  button {
+    background-color: transparent;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: 2px solid black;
+    transition: 0.3s ease-out;
+  }
+
+  button:hover {
+    background-color: #ffb347;
+    transform: scale(99%);
+  }
+}
