@@ -11,6 +11,17 @@ function ProductItems() {
         >
           <Image src={item.img} width={280} height={350} />
           <div className={styles.productBgCircle}></div>
+
+          <div className={styles.onHoverBGcolor}>
+            <div
+              className={`d-flex w-100 justify-content-center text-center ${styles.iconContainer}`}
+            >
+              <i className={`bi bi-cart3 fs-4 p-1 ${styles.icon}`}></i>
+              <i className={`bi bi-search fs-4 p-1 ${styles.icon}`}></i>
+              <i className={`bi bi-suit-heart fs-4 p-1 ${styles.icon}`}></i>
+            </div>
+            
+          </div>
         </div>
       </div>
     ));
