@@ -1,0 +1,49 @@
+@use "../abstracts/" as *;
+
+.dropdown {
+  button {
+    border-radius: 0;
+    background-color: $white-color;
+    color: $dark-color;
+    font-size: 18px;
+    font-weight: 400;
+    width: 90px;
+    padding: 0.3rem 1rem;
+    transition: 0.1s ease;
+  }
+
+  button:hover {
+    background-color: $secondary-color;
+    color: $white-color;
+  }
+}
+
+.dropdownMenu {
+  min-width: 85px;
+}
+
+.popularProductRow {
+  padding-top: 100px;
+
+  img {
+    z-index: 3;
+  }
+
+  .productColumn {
+    background-color: #e3f2fd; //ccf5ff
+    max-width: 376.25px;
+    max-height: 387px;
+    z-index: 1;
+
+    .productBgCircle {
+      position: absolute;
+      top: 15%;
+      left: 15%;
+      width: 70%;
+      height: 70%;
+      background-color: #bbdefb;
+      border-radius: 100%;
+      z-index: 2;
+    }
+  }
+}

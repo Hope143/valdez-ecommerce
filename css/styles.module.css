@@ -4,7 +4,7 @@
   }
 }
 @media screen and (max-width: 992px) {
-  .imageContainer {
+  .carouselImageContainer {
     width: 300px;
     width: 300px;
   }
@@ -13,7 +13,7 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .imageContainer {
+  .carouselImageContainer {
     width: 300px;
     width: 300px;
   }
@@ -27,11 +27,20 @@
     width: 1000px !important;
     height: 300px !important;
   }
+  .categoryTitle {
+    top: 35% !important;
+  }
+  .popularProductRow {
+    padding-top: 50px !important;
+  }
 }
 @media screen and (max-width: 375px) {
   .categoriesContainer img {
     width: 500px !important;
     height: 200px !important;
+  }
+  .categoryTitle {
+    top: 25% !important;
   }
 }
 .carouselItem {
@@ -115,4 +124,46 @@
 .categoryTitle h1 {
   font-size: 2.6rem;
   color: #FFFFFF;
+}
+
+.dropdown button {
+  border-radius: 0;
+  background-color: #FFFFFF;
+  color: #111827;
+  font-size: 18px;
+  font-weight: 400;
+  width: 90px;
+  padding: 0.3rem 1rem;
+  transition: 0.1s ease;
+}
+.dropdown button:hover {
+  background-color: #374151;
+  color: #FFFFFF;
+}
+
+.dropdownMenu {
+  min-width: 85px;
+}
+
+.popularProductRow {
+  padding-top: 100px;
+}
+.popularProductRow img {
+  z-index: 3;
+}
+.popularProductRow .productColumn {
+  background-color: #e3f2fd;
+  max-width: 376.25px;
+  max-height: 387px;
+  z-index: 1;
+}
+.popularProductRow .productColumn .productBgCircle {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  background-color: #bbdefb;
+  border-radius: 100%;
+  z-index: 2;
 }/*# sourceMappingURL=styles.module.css.map */

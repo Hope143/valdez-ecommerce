@@ -19,7 +19,7 @@ function HeroSection() {
           style={{ backgroundColor: `#${item.bg}` }}
         >
           <div
-            className={`col-lg-6 d-flex justify-content-center ${styles.imageContainer}`}
+            className={`col-lg-6 d-flex justify-content-center ${styles.carouselImageContainer}`}
           >
             <Image
               className={`img-fluid ${styles.heroImage}`}
