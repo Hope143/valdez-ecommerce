@@ -15,7 +15,7 @@ function ProductItems({ colorValue, sizeValue, searchItem }) {
       );
     } else {
       return (
-        item.alt.includes(searchItem) &&
+        item.alt.includes(searchItem.toLowerCase()) &&
         item.color.some((item) => {
           return item === colorValue;
         }) &&
