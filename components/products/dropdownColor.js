@@ -3,9 +3,12 @@ import styles from "../../styles/styles.module.scss";
 
 function DropdownColor({ colorValue, setColorValue }) {
   const color = [
-    { title: "Blue", value: "Blue" },
+    { title: "Color", value: "Color" },
+    { title: "Khaki", value: "Khaki" },
     { title: "Brown", value: "Brown" },
     { title: "White", value: "White" },
+    { title: "Gray", value: "Gray" },
+    { title: "Black", value: "Black" },
   ];
 
   function onDropDownChange(e) {

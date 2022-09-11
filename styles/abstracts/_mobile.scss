@@ -46,6 +46,12 @@
   .popularProductRow {
     padding-top: 50px !important;
   }
+
+  .productRow {
+    h3 {
+      max-width: 80px;
+    }
+  }
 }
 
 @media screen and (max-width: 375px) {

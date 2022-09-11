@@ -41,36 +41,70 @@ export const popularProducts = [
   {
     id: 1,
     img: "/productImg/plainTshirt.png",
+    color: ["Khaki", "Color"],
+    size: ["Size", "XS", "S", "M", "L", "XL"],
+    alt: "tshirt",
   },
   {
     id: 2,
     img: "/productImg/summerTshirt.png",
+    color: ["Brown", "Color"],
+    size: ["Size", "S", "M", "L", "XL"],
+    alt: "tshirt",
   },
   {
     id: 3,
     img: "/productImg/floralDress.png",
+    color: ["White", "Color"],
+    size: ["Size", "M", "L", "XL"],
+    alt: "dress",
   },
   {
     id: 4,
     img: "/productImg/toteBag.png",
+    color: ["White", "Color"],
+    size: ["Size", "XS", "S", "M", "L"],
+    alt: "bag",
   },
   {
     id: 5,
     img: "/productImg/womenJacket.png",
+    color: ["Brown", "Color"],
+    size: ["Size", "XS", "S", "XL"],
+    alt: "jacket",
   },
   {
     id: 6,
     img: "/productImg/caumoJacket.png",
+    color: ["Black", "Color"],
+    size: ["Size", "XS", "S", , "L", "XL"],
+    alt: "jacket",
   },
   {
     id: 7,
     img: "/productImg/capWithDesign.png",
+    color: ["Gray", "Color"],
+    size: ["Size", "XS", "S", "M", "L", "XL"],
+    alt: "cap",
   },
   {
     id: 8,
     img: "/productImg/pants.png",
+    color: ["Brown", "Color"],
+    size: ["Size", "XS", "S", "M", "L"],
+    alt: "pants",
   },
 ];
+
+// export async function filteredPopularProducts(color, size) {
+//   const popularProducts = await popularProducts();
+
+//   let filteredProducts = popularProducts.filter((item) => {
+//     return item.color === color;
+//   });
+
+//   return filteredProducts;
+// }
 
 // export const popularProducts = [
 //   {

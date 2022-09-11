@@ -3,6 +3,7 @@ import styles from "../../styles/styles.module.scss";
 
 function DropdownSize({ sizeValue, setSizeValue }) {
   const sizes = [
+    { title: "Size", value: "Size" },
     { title: "XS", value: "XS" },
     { title: "S", value: "S" },
     { title: "M", value: "M" },
