@@ -2,7 +2,7 @@ import styles from "../../styles/styles.module.scss";
 function NavigationBar() {
   return (
     <section>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light w-100">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top w-100">
         <div
           className={`d-flex justify-content-between w-100 ${styles.navContainer}`}
         >

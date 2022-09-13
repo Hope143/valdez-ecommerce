@@ -36,6 +36,12 @@
   .productRow h3 {
     max-width: 80px;
   }
+  .footer {
+    width: 95% !important;
+  }
+  .socialLinks {
+    padding: 5px 10px !important;
+  }
 }
 @media screen and (max-width: 375px) {
   .categoriesContainer img {
@@ -126,12 +132,12 @@
 }
 .categoryTitle h1 {
   font-size: 2.6rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .dropdown button {
   border-radius: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #111827;
   font-size: 18px;
   font-weight: 400;
@@ -141,7 +147,7 @@
 }
 .dropdown button:hover {
   background-color: #374151;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .dropdownMenu {
@@ -198,7 +204,7 @@
 .popularProductRow .iconContainer .icon {
   margin: 0 10px;
   -webkit-text-stroke: 1px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -207,4 +213,47 @@
 .popularProductRow .iconContainer .icon:hover {
   background-color: #e9f5f5;
   transform: scale(1.1);
+}
+
+.newsLetterSection {
+  background-color: #bcebd7;
+  color: #111827;
+  padding: 80px 0px;
+  width: 100%;
+}
+.newsLetterSection h1 {
+  font-size: 70px;
+}
+.newsLetterSection p {
+  font-size: 28px;
+}
+.newsLetterSection form {
+  max-width: 40rem;
+}
+.newsLetterSection input {
+  width: 75%;
+  border: 1px solid #afafaf;
+}
+.newsLetterSection button {
+  padding-top: 2px;
+  padding-bottom: 6px;
+  background-color: #afafaf;
+  border: 1px solid #111827;
+}
+
+.footer {
+  width: 80%;
+}
+.footer h1,
+.footer h4 {
+  color: #000000;
+}
+
+.socialLinks {
+  padding: 8px 13px;
+  margin-right: 10px;
+}
+
+.footerLinks {
+  max-width: 20rem;
 }/*# sourceMappingURL=styles.module.css.map */

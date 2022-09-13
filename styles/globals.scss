@@ -1,8 +1,16 @@
+@use "./abstracts/" as *;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: "Oswald", sans-serif !important;
+}
+
+body::before {
+  content: "";
+  display: block;
+  margin-top: 74px;
 }
 
 nav {
@@ -17,3 +25,4 @@ a {
 * {
   box-sizing: border-box;
 }
+

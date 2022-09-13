@@ -1,0 +1,19 @@
+@use "../abstracts/" as *;
+
+.footer {
+  width: 80%;
+
+  h1,
+  h4 {
+    color: $black-color;
+  }
+}
+
+.socialLinks {
+  padding: 8px 13px;
+  margin-right: 10px;
+}
+
+.footerLinks {
+  max-width: 20rem;
+}
